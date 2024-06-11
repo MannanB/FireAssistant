@@ -1,10 +1,10 @@
 import openai, json
 
-FIREWORKS_API_KEY = "AAMvd8qyhKGAC3Z0nytjyGVzIQAE72m1n4AaFGWESA4PyjNJ"
+FIREWORKS_API_KEY = "..."
 
 fireworksClient = openai.OpenAI(
     base_url = "https://api.fireworks.ai/inference/v1",
-    api_key = "AAMvd8qyhKGAC3Z0nytjyGVzIQAE72m1n4AaFGWESA4PyjNJ"
+    api_key =FIREWORKS_API_KEY
 )
 openAIClient = openai.Client()
 
